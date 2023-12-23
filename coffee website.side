@@ -1,0 +1,419 @@
+{
+  "id": "09358e90-dba4-491a-b37c-53074a984acf",
+  "version": "2.0",
+  "name": "coffee website",
+  "url": "https://utkarshappawar.github.io/coffee-site/",
+  "tests": [{
+    "id": "00243858-c344-45cb-8993-b7f3c92f0fd4",
+    "name": "test-case 1",
+    "commands": [{
+      "id": "75ddad94-0953-475b-a3b1-672367db23aa",
+      "comment": "",
+      "command": "open",
+      "target": "/coffee-site/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3164d62c-db98-43b2-a49c-60892cba80a4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c799c671-962f-4fb8-a2ca-e32940d3d0cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav .logo-text",
+      "targets": [
+        ["css=.nav .logo-text", "css:finder"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Coffee.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4668b11e-68c0-4626-9072-6896b3e21b6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active-navlink",
+      "targets": [
+        ["css=.active-navlink", "css:finder"],
+        ["xpath=//a[contains(text(),'home')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#home')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11157d95-bb0f-4a3f-9e17-6e0b2d14e77c",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'about')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#about')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d3d2544-e0d4-48bc-909e-ed26eb9ab275",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > .nav-link",
+      "targets": [
+        ["css=li:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'menu')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#menu')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f4a14b8-abb3-4b02-87b5-b77409df1589",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) > .nav-link",
+      "targets": [
+        ["css=li:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'review')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#review')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13571d9f-6f32-4475-bd98-f9a718f0b873",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swiper:nth-child(1) > .swiper-button-next",
+      "targets": [
+        ["css=.swiper:nth-child(1) > .swiper-button-next", "css:finder"],
+        ["xpath=//section[@id='home']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c399aa3-ba10-4521-91e2-45cdff6115af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swiper:nth-child(1) > .swiper-button-next",
+      "targets": [
+        ["css=.swiper:nth-child(1) > .swiper-button-next", "css:finder"],
+        ["xpath=//section[@id='home']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9fc3d99-a8c4-437a-b01f-a14387956a34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.swiper:nth-child(1) > .swiper-button-next",
+      "targets": [
+        ["css=.swiper:nth-child(1) > .swiper-button-next", "css:finder"],
+        ["xpath=//section[@id='home']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cc964b5-129d-46b1-9180-7f629f3b2411",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brand-image:nth-child(2) > .brand-img",
+      "targets": [
+        ["css=.brand-image:nth-child(2) > .brand-img", "css:finder"],
+        ["xpath=//section[4]/div/div/div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "858f903f-4253-4e40-a296-c57084821e66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brand-image:nth-child(3) > .brand-img",
+      "targets": [
+        ["css=.brand-image:nth-child(3) > .brand-img", "css:finder"],
+        ["xpath=//section[4]/div/div/div[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb0ecb4e-b13c-4e75-ab57-bb2b9af28423",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brand-image:nth-child(4) > .brand-img",
+      "targets": [
+        ["css=.brand-image:nth-child(4) > .brand-img", "css:finder"],
+        ["xpath=//section[4]/div/div/div[4]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7edbf8a3-5ae0-4002-8305-e0322a94159c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brand-image:nth-child(5) > .brand-img",
+      "targets": [
+        ["css=.brand-image:nth-child(5) > .brand-img", "css:finder"],
+        ["xpath=//section[4]/div/div/div[5]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5e6d639-1b30-4ab7-9de8-32f2c52c1fbb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brand-image:nth-child(1) > .brand-img",
+      "targets": [
+        ["css=.brand-image:nth-child(1) > .brand-img", "css:finder"],
+        ["xpath=//section[4]/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee61dfab-4831-4384-afdd-4d58a6de9715",
+      "comment": "",
+      "command": "click",
+      "target": "css=.newsletter-button",
+      "targets": [
+        ["css=.newsletter-button", "css:finder"],
+        ["xpath=//section[6]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Subscribe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e9f158ae-2ac4-439f-afe1-700bc5bdd691",
+    "name": "test-case 2",
+    "commands": [{
+      "id": "e7f06aab-e0cb-49c4-803a-bf65ecf84752",
+      "comment": "",
+      "command": "open",
+      "target": "https://utkarshappawar.github.io/coffee-site/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "512cf87f-e834-48be-b7bf-90eed69ae9b7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f679d2cc-6509-4587-ae61-1498f9732242",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'about')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#about')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efd3d6fa-b753-436b-b461-e959f37514c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > .nav-link",
+      "targets": [
+        ["css=li:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'menu')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#menu')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35662dd3-d7a4-44ec-bd75-9d0c9ec25af5",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) > .nav-link",
+      "targets": [
+        ["css=li:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'review')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#review')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0dc0f3b-f1e2-4127-9c40-4142bb342178",
+      "comment": "",
+      "command": "click",
+      "target": "css=.newsletter .bxl-twitter",
+      "targets": [
+        ["css=.newsletter .bxl-twitter", "css:finder"],
+        ["xpath=//div[2]/a[2]/i", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6298",
+      "windowTimeout": 2000
+    }, {
+      "id": "bf6f5134-6f15-4f66-816b-2e04c2b5a671",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee684413-5ea2-440e-8f25-e3160c7cad81",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6298}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85812be9-ff12-47d9-a146-9c47b61764a0",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c2ab409-db36-4c37-b6fe-9e26c33c435c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.newsletter .bxl-facebook",
+      "targets": [
+        ["css=.newsletter .bxl-facebook", "css:finder"],
+        ["xpath=//section[6]/div/div[2]/a/i", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5500",
+      "windowTimeout": 2000
+    }, {
+      "id": "465a7edc-9bdc-411a-84c2-9b17e9e8bda5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5500}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff6fb6e4-722e-46f4-885f-90302e0928b7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e625c2f-06b1-4ee1-83f8-4da3b371b9c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.newsletter .bxl-github",
+      "targets": [
+        ["css=.newsletter .bxl-github", "css:finder"],
+        ["xpath=//div[2]/a[4]/i", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win119",
+      "windowTimeout": 2000
+    }, {
+      "id": "c8dd1fec-c95c-4bd2-8e98-e5105c6b4495",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win119}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c89e2072-76b9-46d1-86ec-a7faf5a2620a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ec482a3-bbf5-4726-aba3-841e97ca9592",
+      "comment": "",
+      "command": "click",
+      "target": "css=.newsletter .bxl-youtube",
+      "targets": [
+        ["css=.newsletter .bxl-youtube", "css:finder"],
+        ["xpath=//div[2]/a[5]/i", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5879",
+      "windowTimeout": 2000
+    }, {
+      "id": "866a8bd5-1445-465f-b99a-b188fe319f33",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5879}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17bdce32-ea37-4295-a4fe-c7f3bd2e4c8d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6f4a783e-2bc4-4b21-a6c1-8b49aabdcbf2",
+    "name": "test-case 3",
+    "commands": [{
+      "id": "2a0321b4-adc9-49c7-97ad-7f70d321d4ee",
+      "comment": "",
+      "command": "open",
+      "target": "https://utkarshappawar.github.io/coffee-site/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b884393d-6791-496f-b2dc-f64792b2ec87",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebe20b14-bdce-4622-92b8-61522b71dd29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.newletter-input",
+      "targets": [
+        ["css=.newletter-input", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcd0fcb5-b012-436b-be9d-a753d71e6743",
+      "comment": "",
+      "command": "type",
+      "target": "css=.newletter-input",
+      "targets": [
+        ["css=.newletter-input", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "utkarshapawar@gmail.com"
+    }, {
+      "id": "8e9f3873-1c8a-43c0-8796-7e8c4d4b22e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.newsletter-button",
+      "targets": [
+        ["css=.newsletter-button", "css:finder"],
+        ["xpath=//section[6]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Subscribe')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab58da1e-d94b-46c0-a657-cd427634c69d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link-text",
+      "targets": [
+        ["css=.link-text", "css:finder"],
+        ["xpath=//section[@id='about']/div/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fe56b2dc-9653-434b-a747-d555cc6d74c4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["00243858-c344-45cb-8993-b7f3c92f0fd4"]
+  }],
+  "urls": ["https://utkarshappawar.github.io/", "https://utkarshappawar.github.io/coffee-site/"],
+  "plugins": []
+}

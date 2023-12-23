@@ -1,0 +1,26 @@
+//Testing fail-1
+
+it('should add "header-active" class to header when scrolled down more than 5px', function() {
+        // Simulate scrolling down
+        window.pageYOffset = 10;
+        window.dispatchEvent(new window.Event('scroll'));
+
+        // Check if the header has the "header-active" class
+        const header = document.querySelector('header');
+        expect(header.classList.contains('header-active')).to.be.true;
+    });
+
+//Testing fail-2
+
+
+    it('should show the scroll up button when scrolled down more than 250px', function() {
+        // Simulate scrolling down
+        window.pageYOffset = 300;
+        window.dispatchEvent(new window.Event('scroll'));
+
+        // Check if the scroll up button has the "scrollUpBtn-active" class
+        const scrollUpBtn = document.querySelector('.scrollUp-btn');
+        expect(scrollUpBtn.classList.contains('scrollUpBtn-active')).to.be.true;
+    });
+
+
